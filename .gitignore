@@ -4,6 +4,9 @@
 
 # Xcode
 #
+android/
+*.hprof
+
 build/
 *.pbxuser
 !default.pbxuser
@@ -21,8 +24,6 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-# android/
-*.hprof
 # Android/IntelliJ
 #
 build/
