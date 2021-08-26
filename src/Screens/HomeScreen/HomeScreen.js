@@ -44,7 +44,7 @@ const HomeScreen = ()=>{
   }
   return(
     <View style={styles.container}>
-      <RemotePushController/>
+      {/* <RemotePushController/> */}
       <FocusAwareStatusBar barStyle="dark-content" backgroundColor="white" />
       <View style={styles.headerContainer}>
           <TouchableOpacity  onPress={goAddScreen} >
